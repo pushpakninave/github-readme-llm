@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: repo-content-generator
+
+server:
+  port: 8081
+  
+gg:
+  jte:
+    developmentMode: true
+
+app:
+  output:
+    directory: output
+
+github:
+  token: ${GITHUB_TOKEN}
+  includePatterns:
+    - "**/*.md"
+    - "**/*.txt"
+    - "**/*.xml"
+    - "**/*.java"
+    - "**/*.jte"
+    - "**/*.yaml"
+    - "**/*.yml"
+    - "**/*.graphqls"
+    - "**/*.properties"
+  excludePatterns:
+    - ".mvn/**"
+    - ".idea/**"
+    - "target/**"
+    - ".gitignore"
+    - ".gitattributes"
+    - "mvnw"
+    - "mvnw.cmd"
+
+logging:
+  level:
+    dev:
+      danvega: debug
