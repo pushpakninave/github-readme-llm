@@ -66,6 +66,9 @@ content = @`
         <div id="result-container" class="mt-6">
             <!-- Generated content will appear here -->
         </div>
+        <div class="flex justify-center mt-6">
+            <span hx-swap-oob="true">made with ❤️ by pushpak</span>
+        </div>
     </div>
 
     <script>
