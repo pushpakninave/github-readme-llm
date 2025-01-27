@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### JTE ###
+/jte-classes/
+
+### OUTPUT ###
+output/
+
+### env ###
+.env*
