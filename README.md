@@ -19,7 +19,7 @@ You can also select files from a local directory if you're running this on your 
 
 ## Requirements
 
-- Java 23 or higher
+- Java 17 or higher
 - Maven 3.6+
 - GitHub Personal Access Token
 - Modern web browser with JavaScript enabled
@@ -246,7 +246,7 @@ Records are a special kind of class introduced in Java 14 (as a preview feature)
 
 ### Explanation of [`GitHubConfiguration`](src/main/java/dev/pushpak/llm/gh/GitHubConfiguration.java) Record
 
-The provided code snippet is a Java record class GitHubConfiguration annotated with Spring's @ConfigurationProperties to bind external configuration properties to this Java bean. Here’s a detailed breakdown:
+The provided code snippet is a Java record class GitHubConfiguration annotated with Spring's `@ConfigurationProperties` to bind external configuration properties to this Java bean. Here’s a detailed breakdown:
 
 ### Explanation of [`ResourceBundleRuntimeHints`](src/main/java/dev/pushpak/llm/ResourceBundleRuntimeHints.java) 
 
@@ -257,4 +257,4 @@ Uses Spring AOT (Ahead-Of-Time Compilation) to optimize runtime performance by p
 **Runtime hints :** Runtime hints in the context of Spring AOT (Ahead-Of-Time) compilation refer to metadata that guides the application during the compilation and execution phases, particularly when using native images and optimizing runtime performance. These hints provide the necessary information for the application to function correctly without relying heavily on dynamic features like reflection or resource scanning, which are commonly used in JVM-based environments.
 
 **Usage in the `Application` Class**
-In your Application class, the `ResourceBundleRuntimeHints` is used with `@ImportRuntimeHints`. This inclusion ensures that the runtime hints provided by ResourceBundleRuntimeHints are applied, optimizing the application's startup and runtime efficiency.
+In your Application class, the `ResourceBundleRuntimeHints` is used with `@ImportRuntimeHints`. This inclusion ensures that the runtime hints provided by `ResourceBundleRuntimeHints` are applied, optimizing the application's startup and runtime efficiency.
