@@ -1,4 +1,4 @@
-package dev.pushpak.llm;
+package dev.pushpak.llm.lib;
 
 import org.springframework.aot.hint.MemberCategory;
 import org.springframework.aot.hint.RuntimeHints;

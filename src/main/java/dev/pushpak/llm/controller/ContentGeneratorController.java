@@ -1,4 +1,4 @@
-package dev.pushpak.llm;
+package dev.pushpak.llm.controller;
 
 import java.util.Map;
 
@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import dev.pushpak.llm.gh.GitHubService;
 import dev.pushpak.llm.local.LocalFileService;
+import dev.pushpak.llm.service.ContentGeneratorService;
 import gg.jte.TemplateEngine;
 import gg.jte.output.StringOutput;
 

@@ -6,6 +6,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.ImportRuntimeHints;
 
 import dev.pushpak.llm.gh.GitHubConfiguration;
+import dev.pushpak.llm.lib.ResourceBundleRuntimeHints;
 
 @ImportRuntimeHints(ResourceBundleRuntimeHints.class)
 @EnableConfigurationProperties(GitHubConfiguration.class)
