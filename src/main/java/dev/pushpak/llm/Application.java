@@ -12,7 +12,6 @@ import dev.pushpak.llm.lib.ResourceBundleRuntimeHints;
 @ImportRuntimeHints(ResourceBundleRuntimeHints.class)
 @EnableConfigurationProperties(GitHubConfiguration.class)
 @SpringBootApplication
-@ComponentScan(basePackages = "dev.pushpak.llm.controller")
 public class Application {
 
 	public static void main(String[] args) {
