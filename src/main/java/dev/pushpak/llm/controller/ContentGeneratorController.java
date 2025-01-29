@@ -58,4 +58,10 @@ public class ContentGeneratorController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error generating content: " + e.getMessage());
         }
     }
+
+    @GetMapping("/test")
+    public String testMethod() {
+        return new String("works fine..");
+    }
+    
 }
