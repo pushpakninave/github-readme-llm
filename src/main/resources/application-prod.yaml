@@ -3,5 +3,9 @@ gg:
     usePrecompiledTemplates: true
     developmentMode: false
 
+logging:
+  level:
+    root: DEBUG
+
 github:
   token: ${GITHUB_TOKEN}
