@@ -2,3 +2,6 @@ gg:
   jte:
     usePrecompiledTemplates: true
     developmentMode: false
+
+github:
+  token: ${GITHUB_TOKEN}
